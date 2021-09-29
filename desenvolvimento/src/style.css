@@ -1,0 +1,141 @@
+body{
+    font-family: 'Chilanka', cursive;;
+}
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cabecalho{
+	background: linear-gradient(#418f9c,#80c2e9);
+    padding: 20px 0 ;    
+}
+
+.imgCabecalho{
+    width: 250px;
+}
+
+.imgCabecalho:hover{
+    opacity: 0.3;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    right: 10px;
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: white;
+    transform: scale(1.5);
+    
+}
+.icone{
+    width: 25px;
+    
+}
+.icone:hover{
+    
+    transform: scale(1.5);
+}
+
+/*Página Inicial*/
+
+.banner{
+    width: 100%;
+    height: 700px;
+}
+.tituloPrincipal:first-letter{
+    font-weight: bold;
+}
+.tituloPrincipal:before{
+    content: "✮";
+}
+.tituloPrincipal:after{
+    content: "✮";
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.fonte-carousel{
+    font-family: 'Pacifico', cursive; 
+    text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 1px 0px #000000,                    
+     1px -1px 0px #000000,                  
+     1px 0px 0px #000000;
+}
+.imagem-carousel{
+    object-fit: cover;       
+    object-position: 0 70%;  
+    height: 400px;           
+}
+
+#botao-style{
+    background-color: darkred; /*Alterando a cor do botao*/
+    color: white;      /*Alterando cor do texto do botao*/
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+.mapa{
+    padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #418f9c);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapaConteudo{
+    border: 3px solid black;
+    width: 1005px;
+    height: 455px;
+    margin: 0 auto;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+    box-shadow:  10px 20px 30px black ;
+}
+
