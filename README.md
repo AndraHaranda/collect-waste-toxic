@@ -9,6 +9,6 @@
   
  ### Ferramentas:
   
-  ![NodeJs](https://img.shields.io/badge/-NodeJs-%232c3e50?style=flat-square&logo=NodeJs)
+  ![Node](https://img.shields.io/badge/-Node-%232c3e50?style=flat-square&logo=Node)
   ![Git](https://img.shields.io/badge/-Git-%232c3e50?style=flat-square&logo=git)
-  ![MongoBD](https://img.shields.io/badge/-MonfoDb-%232c3e50?style=flat-square&logo=mongodb)
+  ![MongoBD](https://img.shields.io/badge/-MongoDb-%232c3e50?style=flat-square&logo=mongodb)
